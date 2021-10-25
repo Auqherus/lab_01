@@ -17,5 +17,6 @@ public class Main {
         *   wynik wyświetlić w konsoli programu
         */
 
+
     }
 }
