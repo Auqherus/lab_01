@@ -15,7 +15,7 @@ public class Main {
         *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
         *  */
 
-        int a = 1;
+      /*  int a = 1;
         int b = 3;
         double a1 = 2.5;
         double b1 = 10.745;
@@ -40,7 +40,16 @@ public class Main {
         System.out.println("Show e1:"+" "+e1);
         System.out.println("Show Name:"+" "+name);
         System.out.println("Show Number:"+" "+key);
+*/
 
+        double a1,b1;
+
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        System.out.println("Podaj a"+" "+a);
+        System.out.println("Podaj b"+" "+b);
+        System.out.println(a*b);
 
     }
 }
