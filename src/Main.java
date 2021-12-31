@@ -17,6 +17,27 @@ public class Main {
         *   wynik wyświetlić w konsoli programu
         */
 
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println();
+        System.out.println("Formularz");
+        System.out.println();
+        System.out.print("Podaj imie :" + " ");
+        String imie = scan.next();
+        System.out.print("Podaj nazwisko :" + " ");
+        String nazwisko = scan.next();
+        System.out.print("Podaj wiek :" + " ");
+        int wiek = scan.nextInt();
+        System.out.print("Podaj nr indeksu :" +" ");
+        int indeks = scan.nextInt();
+
+        System.out.println();
+        System.out.println("Wynik formularzu");
+        System.out.println();
+        System.out.println("Imię :" + " " +imie);
+        System.out.println("Nazwisko :"+ " "+nazwisko);
+        System.out.println("Wiek :" +" "+wiek);
+        System.out.println("Nr indeksu : "+" "+indeks);
 
     }
 }
