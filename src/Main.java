@@ -45,11 +45,13 @@ public class Main {
         double a1,b1;
 
         Scanner scan = new Scanner(System.in);
+        System.out.print("Podaj a :"+" ");
         int a = scan.nextInt();
+        System.out.print("Podaj b :"+" ");
         int b = scan.nextInt();
-        System.out.println("Podaj a"+" "+a);
-        System.out.println("Podaj b"+" "+b);
-        System.out.println(a*b);
+
+
+        System.out.println("Wynik to ="+" "+a*b);
 
     }
 }
